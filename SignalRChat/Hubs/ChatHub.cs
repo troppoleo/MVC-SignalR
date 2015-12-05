@@ -12,6 +12,7 @@ namespace SignalRChat.Hubs
         //{
         //    Clients.All.hello();
         //}
+        //http://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc
         public void Send(string name, string message)
         {
             // Call the addNewMessageToPage method to update clients.
