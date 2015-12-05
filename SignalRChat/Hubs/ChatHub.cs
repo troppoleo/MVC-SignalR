@@ -19,5 +19,11 @@ namespace SignalRChat.Hubs
         }
 
 
+        public void sendTest(string name, string message)
+        {
+            // Call the addNewMessageToPage method to update clients.
+            Clients.All.inviaAlClient(name, message);
+        }
+
     }
 }
